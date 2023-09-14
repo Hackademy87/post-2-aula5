@@ -15,7 +15,7 @@ body{
     background: url(background02.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-
+    
 }
 
 header{
@@ -112,6 +112,24 @@ color: #162938;
   transition: transform .5s ease;
 
 }
+
+.card{
+    width: 400px;
+    min-height: 440px;
+     background: transparent; 
+     border: 2px solid rgba(255, 255, 255, 0.769);
+     border-radius: 20px;
+     backdrop-filter: blur(20px);
+     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+     /*display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     transform: scale(0);
+    transition: transform .5s ease;*/
+   
+}
+
 
 .wrapper.active-popup{
     transform: scale(1);  
@@ -279,3 +297,12 @@ color: #162938;
     text-decoration: underline;
 
 }
+
+
+.altezza-immagine{
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
